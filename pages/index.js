@@ -29,10 +29,10 @@ export default function Home() {
       <QuizContainer>
         <Widget>
           <Widget.Header>
-            <h1>the lended</h1>
+            <h1>Gesnhin Impact Quiz!</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>lorem impusm....</p>
+            <p>lorem impusm dolor sit amet...</p>
           </Widget.Content>
         </Widget>
 
