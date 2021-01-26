@@ -4,6 +4,7 @@ import Widget from '../src/components/Widget'
 import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
+import QuizLogo from '../src/components/QuizLogo'
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -27,6 +28,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
+        <QuizLogo src={db.logo} alt="Logo Genshin Impact"/>
         <Widget>
           <Widget.Header>
             <h1>Gesnhin Impact Quiz!</h1>
