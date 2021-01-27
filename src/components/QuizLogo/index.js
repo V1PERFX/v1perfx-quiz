@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const QuizLogo = styled.img`
   width: 200px;
@@ -7,6 +7,6 @@ const QuizLogo = styled.img`
   @media screen and (max-width: 500px) {
     margin: 0;
   }
-`
+`;
 
 export default QuizLogo;
