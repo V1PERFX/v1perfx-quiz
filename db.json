@@ -1,7 +1,7 @@
 {
   "bg": "https://www.dl.dropboxusercontent.com/s/kbo0i0f7owz7c70/app-background.jpg",
   "logo": "https://cdn.steamgriddb.com/logo/944eefd22dfe99fe7631b8ecc732c7cf.png",
-  "title": "Genshin Impact Quiz",
+  "title": "Quiz da Paimon!",
   "description": "Teste os seus conhecimentos sobre o Genshin Impact e vamos ver quantos slimes você vai derrotar.",
   "questions": [
     {
@@ -33,7 +33,8 @@
   "theme": {
     "colors": {
       "primary": "#FFB300",
-      "secondary": "#00C853",
+      "secondary": "#673AB7",
+      "tertiary": "#2196F3",
       "mainBg": "#272727",
       "contrastText": "#FFFFFF",
       "wrong": "#D50000",
