@@ -52,7 +52,7 @@ Widget.Topic = styled.a`
   outline: 0;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.contrastText};
-  background-color: ${({ theme }) => `${theme.colors.tertiary}60`};
+  background-color: ${({ theme }) => `${theme.colors.tertiary}95`};
   padding: 10px 15px;
   margin-bottom: 8px;
   cursor: pointer;
