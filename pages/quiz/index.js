@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import { Lottie } from '@crello/react-lottie';
 import db from '../../db.json';
 import Widget from '../../src/components/Widget';
 import QuizLogo from '../../src/components/QuizLogo';
@@ -7,6 +8,7 @@ import QuizBackground from '../../src/components/QuizBackground';
 import QuizContainer from '../../src/components/QuizContainer';
 import AlternativesForm from '../../src/components/AlternativesForm';
 import Button from '../../src/components/Button';
+import loadingAnimation from '../../src/screens/Quiz/animations/loading.json';
 
 function ResultWidget({ results }) {
   return (
@@ -55,8 +57,13 @@ function LoadingWidget() {
         Carregando...
       </Widget.Header>
 
-      <Widget.Content>
-        [Desafio do Loading]
+      <Widget.Content style={{ display: 'flex', justifyContent: 'center' }}>
+        <Lottie
+          width="200px"
+          height="200px"
+          className="lottie-container basic"
+          config={{ animationData: loadingAnimation, loop: true, autoplay: true }}
+        />
       </Widget.Content>
     </Widget>
   );
@@ -180,7 +187,7 @@ export default function QuizPage() {
     // fetch() ...
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1 * 1000);
+    }, 1 * 2000);
   // nasce === didMount
   }, []);
 
