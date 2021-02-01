@@ -27,6 +27,10 @@
     }
   ],
   "external": [
+    "https://lolzinquiz-git-main.bernardooficial.vercel.app/",
+    "https://quiz-games.gabrielwolf-dev.vercel.app/",
+    "https://disgust-quiz.arrivabeni.vercel.app/",
+    "https://quiz-pokemon.dashpunk.vercel.app/",
     "https://aluraquiz-css.omariosouto.vercel.app/",
     "https://aluraquiz-marvel.omariosouto.vercel.app/"
   ],
