@@ -1,6 +1,7 @@
+import React from 'react';
 import styled from 'styled-components';
 
-const QuizLogo = styled.img`
+const Logo = styled.img`
   width: 200px;
   margin: auto;
   display: block;
@@ -8,5 +9,11 @@ const QuizLogo = styled.img`
     margin: 0;
   }
 `;
+
+function QuizLogo() {
+  return (
+    <Logo src="https://cdn.steamgriddb.com/logo/944eefd22dfe99fe7631b8ecc732c7cf.png" alt="Logo Genshin Impact" />
+  );
+}
 
 export default QuizLogo;
